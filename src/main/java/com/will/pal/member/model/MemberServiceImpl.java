@@ -1,6 +1,5 @@
 package com.will.pal.member.model;
 
-import java.sql.SQLException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
