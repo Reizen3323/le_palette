@@ -1,0 +1,127 @@
+@charset "UTF-8";
+.body-inner {
+    width: 100%;
+    background: #fff;
+}
+#main-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+/* 임시 */
+header {
+    width: 100%;
+    height: 87px;
+}
+#contents {
+    width: 100%;
+    height: 100%;
+    margin: 90px 0;
+}
+/* 가로 기본 1060px 사이즈 적용 */
+.side-inner {
+    width: 1060px;
+    margin: 0 auto;
+}
+/* 임시 */
+#main-banner {
+    width: 100%;
+    height: 400px;
+    background: #f8f8f8;
+}
+/* 임시 */
+footer {
+    width: 100%;
+    height: 82px;
+    background-color: #333333;
+}
+/* 메인 내용 */
+.main-contents section .m-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.main-contents section .more-link a{
+    font-size: 15px;
+    color:#9e9e9e;
+	float:right;
+	margin-right: 15px;
+}
+
+.main-contents section {
+    padding: 60px 0;
+}
+.main-contents section.sec-2 {
+    background-color: #f5f5f5;
+}
+/* 제품 리스트 공통 */
+.main-contents ul.product  {
+    display: flex;
+}
+.main-contents ul.product li {
+    display: flex;
+    flex-direction: column;
+    line-height: 18px;
+}
+.main-contents ul.product li .ms-text {
+    margin: 20px 0;
+}
+.main-contents ul.product li .ms-price {
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-contents ul.product li .ms-price span {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+/* 제품 리스트 round */
+.main-contents .product.round  {
+	clear:both;
+    display: flex;
+}
+.main-contents .product.round li {
+    width: 20%;
+    text-align: center;
+    margin: 3.3%;
+}
+.main-contents .product.round li:first-child {
+    margin-left: 0 !important;
+}
+.main-contents .product.round li:last-child {
+    margin-right: 0 !important;
+}
+.main-contents .product.round li .ms-img {
+    width: 200px;
+    height: 200px;
+    background-color: #eeeeee;
+    border-radius: 100%;
+}
+/* 제품 리스트 square */
+.main-contents .product.square {
+    flex-wrap: wrap;
+}
+.main-contents .product.square li {
+    width: 30%;
+    line-height: 18px;
+    margin: 20px 2.5%;
+}
+.main-contents .product.square li:nth-child(3n+1) {
+    margin-left: 0 !important;
+}
+.main-contents .product.square li:nth-child(3n) {
+    margin-right: 0 !important;
+}
+.main-contents .product.square li .box-inner {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.main-contents .product.square li .ms-img {
+    height: 200px;
+    background-color: #eeeeee;
+}
+.main-contents .product.square li .ms-info-box {
+    padding: 0 15px 20px;
+}
