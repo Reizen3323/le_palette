@@ -13,7 +13,6 @@
 		<org.aspectj-version>1.8.3</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
-
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
@@ -154,11 +153,11 @@
 			<version>12.1.0.1-atlassian-hosted</version>
 		</dependency>-->
 
-		<dependency>
+		<!-- <dependency>
 		    <groupId>oracle</groupId>
-		    <artifactId>ojdbc8</artifactId>
-		    <version>19.3.0.0</version>
-		</dependency>
+		    <artifactId>ojdbc6</artifactId>
+		    <version>11.2.0.3</version>
+		</dependency> -->
 		
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -265,8 +264,15 @@
 			<artifactId>spring-context-support</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/ojdbc8 -->
+		<dependency>
+		    <groupId>com.oracle.ojdbc</groupId>
+		    <artifactId>ojdbc8</artifactId>
+		    <version>19.3.0.0</version>
+		</dependency>
+		
 	</dependencies>
-
 	<repositories>
 		<!-- <repository>
 			<id>oracle</id>
@@ -280,11 +286,11 @@
 			<url>https://maven.atlassian.com/3rdparty/</url>
 		</repository>	 -->
 		
-		<repository>
+		<!-- <repository>
 			<id>oracle</id>
 		   	<name>ORACLE JDBC Repository</name>
 			<url>http://www.datanucleus.org/downloads/maven2/</url>		   
-		</repository>
+		</repository> -->
 	</repositories>
     <build>
         <plugins>
