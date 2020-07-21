@@ -4,7 +4,7 @@
 <style type="text/css">
 	#chkId + label{
 		font-size: 0.9em;
-	}
+	} 
 </style>
 <script type="text/javascript">
 	$(function(){
