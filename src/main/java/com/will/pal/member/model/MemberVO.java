@@ -2,7 +2,7 @@ package com.will.pal.member.model;
 
 import java.sql.Timestamp;
 
-public class MemberVO {
+public class MemberVO { 
 	private int mno;
     private String muserid;
     private String mpwd;

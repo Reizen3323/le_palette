@@ -6,5 +6,5 @@ public interface MemberDAO {
 	String selectPwd(String userid);
 	public MemberVO selectMember(String userid);
 	public int updateMember(MemberVO vo);
-	public int deleteMember(String userid);
+	public int deleteMember(String userid); 
 }
